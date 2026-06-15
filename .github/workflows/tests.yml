@@ -45,12 +45,4 @@ jobs:
 
       - name: Execute tests
         run: php artisan test
-        
-        - name: Run Migrations
-  run: php artisan migrate --env=testing
 
-  - name: Execute tests
-  run: php artisan test
-  
-
-        
